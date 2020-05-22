@@ -9,16 +9,15 @@ body, html{
   background-size: cover;
 }
 
-h1{
-    font-size: 3rem;
-    justify-content: center;
-    color: #034d00
-}
-
 img{
     width: 1200px;
     height: 700px;
     justify-content: center;
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: pulse; 
+    animation-duration: 2s; 
 }
 
 .buffer{
@@ -34,6 +33,11 @@ img{
 .btn-info{
     background-color: green;
     border-color: green;
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: backInLeft; 
+    animation-duration: 2s; 
 }
 
 .btn-info:hover{
